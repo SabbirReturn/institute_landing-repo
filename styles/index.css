@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+}
+.background-image{
+   background-image: url('../assets/image/background.png');
+   width: 100%;
+   height: 690px; 
+   
+}
+.header-section{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+}
+.nav-bar{
+    display: flex;
+}
+.nav-bar > ul{
+    display: flex;
+    margin-right: 62px;
+}
+.nav-bar> ul > li{
+    margin-right: 62px;
+    list-style: none;
+}
+.nav-bar>ul>li>a{
+    text-decoration: none;
+    color: rgb(201, 228, 161);
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.3s ease-in-out;
+}
+.nav-bar>ul>li>a:hover{
+    background-color: blueviolet;
+    padding: 5px;
+    border-radius: 10px;
+}
+.logo{
+    color: rgb(201, 228, 161);
+}
