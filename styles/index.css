@@ -2,11 +2,9 @@
     margin: 0px;
 }
 .background-image{
-   /* background-image: url('../assets/image/background.png'); */
    background: linear-gradient(to right, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(../assets/image/background.png);
    width: 100%;
-   height: 690px; 
-   /* background:linear-gradient(to right, #f0f0f0, #000000);; */
+   height: 695px;
 }
 .header-section{
     display: flex;
@@ -93,7 +91,6 @@
 .about-details{
     font-size: 22px;
     color: white;
-    /* font-weight: bolder; */
     padding-right: 300px;
     padding-top: 20px;
     font-family: Arial,;
@@ -125,8 +122,86 @@
     text-align: center;
     border: 1px solid white;
     background-color: white;
-    margin: 20px 30px 5px 30px;
+    margin: 30px 30px 5px 30px;
     height: 30px;
     border-radius: 25px;
-    padding-top: 10px;
+    padding-top: 5px;
+}
+.input-email{
+    color: white;
+    background: transparent;
+    border: none;
+    margin-top: 30px;
+    height: 30px;
+    margin-left: 40px;
+    font-size: 20px;
+    text-align: center;
+}
+.input-email:focus{
+    outline: none;
+}
+.input-email::placeholder{
+    color: white;
+    font-style: italic;
+}
+hr{
+    margin-left: 40px;
+    margin-right: 40px; 
+    border: 1px solid rgb(201, 228, 161);
+}
+.input-password{
+    color: white;
+    background: transparent;
+    border: none;
+    margin-top: 10px;
+    height: 30px;
+    margin-left: 40px;
+    font-size: 20px;
+    text-align: center;
+}
+.input-password:focus{
+    outline: none;
+}
+.input-password::placeholder{
+    color: white;
+    font-style: italic;
+}
+.Log-in-Btn{
+    width:253px ;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 40px;
+    border: none;
+    border-radius: 10px;
+    font-size: 26px;
+    font-weight: bold;
+    font-family: Arial;
+    background-color:#0056b3 ;
+    color: white;
+}
+.sign-up-title{
+    color: white;
+    text-align: center;
+    font-family: 'Times New Roman';
+    margin-top: 10px;
+}
+.sign-up-btn{
+    color: white;
+    text-align: center; 
+    font-family: 'Times New Roman';
+}
+.sign-btn{
+    color:rgb(201, 228, 161);
+    font-weight: bold;
+}
+.login-btn{
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+}
+img{
+    height: 30px;
+    width: 30px;
+    margin-left: 42px;
+    margin-top: 10px;
 }
